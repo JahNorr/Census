@@ -5,7 +5,7 @@
 
 library("plotrix")
 
-source(file = "./Census/readcsv_sex_age.R")
+source(file = "./readcsv_sex_age.R")
 
 #=================================================
 #   select your column of interest
