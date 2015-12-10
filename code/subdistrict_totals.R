@@ -3,9 +3,9 @@ totals_geog_area<-race[race$Short=="Total",c(-1,-2,-3)]
 names_col<-colnames(totals_geog_area)
 
 fix_names<-function(x) {
-  x0000=gsub(pattern="..","$.",x=x,fixed = TRUE)
-  x0000=gsub(pattern="."," ",x=x0000,fixed = TRUE,)
-  x0000=gsub(pattern="$",".",x=x0000,fixed = TRUE,)
+  x0000<-gsub(pattern="..","$.",x=x,fixed = TRUE)
+  x0000<-gsub(pattern="."," ",x=x0000,fixed = TRUE,)
+  x0000<-gsub(pattern="$",".",x=x0000,fixed = TRUE,)
   return(x0000)
 }
 

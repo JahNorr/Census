@@ -52,7 +52,7 @@ library(scales)  #for transparency
 #
 #
 
-estates <- readShapePoly("C:/Users/john/Documents/Geodata/VI/tl_2014_78_estate/tl_2014_78_estate.shp")
+estates <- readShapePoly("../mapping/data_raw/tl_2014_78_estate.shp")
 #=============================================================
 #
 #   get the list of all the estate geog codes
