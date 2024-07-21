@@ -1,0 +1,11 @@
+name: vi_census
+title:
+username:
+account: jahnorr
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7909299
+bundleId: 6651076
+url: https://jahnorr.shinyapps.io/vi_census/
+when: 1671393852.25818
+lastSyncTime: 1671393852.25819
